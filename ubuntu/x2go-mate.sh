@@ -33,9 +33,9 @@ main() {
     
     echo "${BLUE}Adding x2go PPA repo...${RESET}"
 
-    apt-get install software-properties-common
+    apt-get install -y software-properties-common
 
-    add-apt-repository ppa:x2go/stable
+    add-apt-repository -y ppa:x2go/stable
 
 
     echo "${BLUE}Updating apt package repository...${RESET}"
