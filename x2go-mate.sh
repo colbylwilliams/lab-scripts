@@ -47,15 +47,10 @@ main() {
     
     echo "${BLUE}Intalling MATE desktop and x2go server...${RESET}"
 
-    apt-get install 
-
-    
-    echo "${BLUE}Intalling x2go server...${RESET}"
-
-    apt-get install ubuntu-mate-desktop x2goserver x2goserver-xsession x2gomatebindings
+    apt-get install -y ubuntu-mate-desktop x2goserver x2goserver-xsession x2gomatebindings
 
 
-    echo "${GREEN}MATE desktop and x2go installed successfully!${RESET}"    
+    echo "${GREEN}MATE desktop and x2go successfully installed!${RESET}"    
 }
 
 main
