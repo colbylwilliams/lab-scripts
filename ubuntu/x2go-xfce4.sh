@@ -45,12 +45,12 @@ main() {
     sleep 2
 
     
-    echo "${BLUE}Intalling MATE desktop and x2go server...${RESET}"
+    echo "${BLUE}Intalling XFCE4 desktop and x2go server...${RESET}"
 
-    apt-get install -y ubuntu-mate-desktop x2goserver x2goserver-xsession x2gomatebindings
+    apt-get install -y xfce4 x2goserver x2goserver-xsession
 
 
-    echo "${GREEN}MATE desktop and x2go successfully installed!${RESET}"    
+    echo "${GREEN}XFCE4 desktop and x2go successfully installed!${RESET}"
 }
 
 main
