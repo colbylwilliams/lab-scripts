@@ -1,6 +1,5 @@
 #!/bin/sh
 
-apt update && \
 apt install ubuntu-mate-desktop && \
 apt-get install software-properties-common && \
 add-apt-repository ppa:x2go/stable && \
