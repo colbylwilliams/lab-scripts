@@ -23,19 +23,19 @@ The machine that runs the X2Go server would be called the remote machine. Applic
 
 The scripts below will automatically install the X2Go server and the Linux desktop software.  Just SSH into the Lab VM and paste in one of the following scripts depending on which desktop software you prefer:
 
-#### Install MATE desktop and X2Go server:
+#### Install MATE Desktop & X2Go Server
 
 ```bash
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/colbylwilliams/lab-scripts/master/ubuntu/x2go-mate.sh)"
 ```
 
-#### Install XFCE4 desktop and X2Go server:
+#### Install XFCE4 Desktop & X2Go Server
 
 ```bash
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/colbylwilliams/lab-scripts/master/ubuntu/x2go-xfce4.sh)"
 ```
 
-#### Install Xubuntu desktop and X2Go server:
+#### Install Xubuntu Desktop & X2Go Server
 
 ```bash
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/colbylwilliams/lab-scripts/master/ubuntu/x2go-xubuntu.sh)"
