@@ -23,19 +23,19 @@ The machine that runs the X2Go server would be called the remote machine. Applic
 
 The scripts below will automatically install the X2Go server and the Linux desktop software.  Just SSH into the Lab VM and paste in one of the following scripts depending on which desktop software you prefer:
 
-#### Install MATE Desktop & X2Go Server
+##### Install MATE Desktop & X2Go Server
 
 ```bash
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/colbylwilliams/lab-scripts/master/ubuntu/x2go-mate.sh)"
 ```
 
-#### Install XFCE4 Desktop & X2Go Server
+##### Install XFCE4 Desktop & X2Go Server
 
 ```bash
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/colbylwilliams/lab-scripts/master/ubuntu/x2go-xfce4.sh)"
 ```
 
-#### Install Xubuntu Desktop & X2Go Server
+##### Install Xubuntu Desktop & X2Go Server
 
 ```bash
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/colbylwilliams/lab-scripts/master/ubuntu/x2go-xubuntu.sh)"
@@ -47,11 +47,11 @@ Once you have the X2Go server running on your Ubuntu VM (using the scripts above
 
 Instructions for installing the X2Go client can be found [here](https://wiki.x2go.org/doku.php/doc:installation:x2goclient).
 
+Once you've installed the X2Go client, you'll need to **create a new session** to connect to your Lab VM.
+
 #### Create an X2Go Session
 
-Once you've installed the X2Go client, you'll create a new session to connect to your Lab VM.
-
-To get the connection details for your Lab VM:
+First, you'll need to get the connection details for your Lab VM:
 
 - **Instructors** (template) VM: Go to the [Lab Services portal](https://labs.azure.com/), select your Lab, select **_Customize template_** on the _Template_ tab, then select **_SSH_**
 - **Students**: Go to the [Lab Services portal](https://labs.azure.com/virtualmachines), select the **_Connect_** icon on your Lab VM, then select **_SSH_** (note: you may need to start your VM if it isn't already running)
