@@ -46,7 +46,7 @@ sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/colbylwilliams/lab-sc
 
 Once you have the X2Go server running on your Ubuntu VM (using the scripts above), you'll use the X2Go client to remotely connect to the VM. The X2Go Client is the application that allows one to connect to a remote server and display a graphical desktop / application on the client machine.
 
-Instructions for installing the X2Go client can be found [here](https://wiki.x2go.org/doku.php/doc:installation:x2goclient).
+**Instructions for installing the X2Go client can be found [here](https://wiki.x2go.org/doku.php/doc:installation:x2goclient).**
 
 Once you've installed the X2Go client, you'll need to **create a new session** to connect to your Lab VM.
 
