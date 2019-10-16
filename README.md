@@ -12,10 +12,11 @@ These scripts work for both 16.04 LTS and 18.04 LTS.  They will likely work for 
 
 **_X2Go is the recommended Remote Desktop solution for Linux VMs in Azure Lab Services. It provides the smoothest and most performant experience._**
 
-Using X2Go requires two steps:
+Using X2Go requires three steps: _(If you're a student with a Lab VM that already has X2Go installed, skip the first step)_
 
 1. [Install the X2Go server](#install-x2go-server) on the Lab (template) VM using one of the three scripts below.
 2. [Install the X2Go client](#install-x2go-client) software on your local machine to connect to the remote VM.
+3. [Create an X2Go session](#create-x2go-session) in the X2Go client to connect to your Lab (remote) VM.
 
 ### Install X2Go Server
 
@@ -49,7 +50,7 @@ Instructions for installing the X2Go client can be found [here](https://wiki.x2g
 
 Once you've installed the X2Go client, you'll need to **create a new session** to connect to your Lab VM.
 
-#### Create an X2Go Session
+### Create X2Go Session
 
 First, you'll need to get the connection details for your Lab VM:
 
